@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bean & Brew</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<body class="fixed inset-0 flex min-h-screen font-[inter] text-gray-400">
+    <aside class="bg-gray-950 w-[250px]">
+
+        <div class="pl-6 pt-6 border-b border-gray-500 h-[90px]">
+            <h3 class="text-white font-[Playfair_Display]">Bean & <span class="text-amber-400">Brew</span></h3>
+            <p class="text-[10px] tracking-[2px] text-gray-400">ADMIN DASHBOARD</p>
+        </div>
+
+        <section>
+            <h4 class="pl-6 pt-8 text-[9px] tracking-[3px] text-gray-400">OVERVIEW</h4>
+
+            <nav class="pl-6 pt-4">
+                <ul class="flex flex-col gap-3 text-[14px] tracking-[1px]">
+
+                    <li>
+                        <a href="#" class="flex items-center gap-3">
+                            <img src="../assets/images/dashboard.png" class="w-4 h-4" alt="Dashboard">
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <h4 class="pl-6 pt-8 text-[9px] tracking-[3px] text-gray-400">MANAGE</h4>
+
+            <nav class="pl-6 pt-4">
+                <ul class="flex flex-col gap-5 text-[14px] tracking-[1px]">
+                    <li>
+                        <a href="#" class="flex items-center gap-3">
+                            <img src="../assets/images/menu.png" class="w-4 h-4" alt="Menu">
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center gap-3">
+                            <img src="../assets/images/events.png" class="w-4 h-4" alt="Events">
+                            <span>Events</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center gap-3">
+                            <img src="../assets/images/messages.png" class="w-4 h-4" alt="Messages">
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li><a href="#" class="flex items-center gap-3">
+                            <img src="../assets/images/gallery.png" class="w-4 h-4" alt="Gallery">
+                            <span>Gallery</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <form method="POST" enctype="multipart/form-data">
+
+
+            <input type="file" name="image" id="upload" accept="image/*" class="hidden">
+
+            <section class="absolute bottom-0 w-[250px] border-t border-gray-500">
+
+                <div class="flex items-center gap-3 mb-5 pl-6 pt-5">
+
+                    <label for="upload">
+                        <img id="preview" src="../assets/images/default.png" class="w-9 h-9 rounded-full object-cover">
+                    </label>
+
+                    <div class="text-[12px] tracking-[1px]">
+                        <h4 class="font-semibold">Admin</h4>
+                        <p class="text-gray-500">hello@Mira.com</p>
+                    </div>
+
+                </div>
+
+                <button
+                    class="mb-5 px-[68px] py-1 bg-sky-800 text-[14px] text-gray-100 tracking-[1px] rounded relative left-[23px]">Sign
+                    Out</button>
+            </section>
+        </form>
+    </aside>
+
+    <main>
+        <header>
+            <div class="header">
+                <h2>Dashboard</h2>
+            </div>
+        </header>
+
+        <section class="main-content">
+
+        </section>
+    </main>
+</body>
+
+</html>
